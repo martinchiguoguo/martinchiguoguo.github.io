@@ -908,7 +908,7 @@ header.scrolled .logo img {
   text-align: center;
   box-shadow: var(--box-shadow);
   transition: var(--transition);
-  height: 100%;
+  /* height: 100%; */
   display: flex;
   flex-direction: column;
   align-items: center;
