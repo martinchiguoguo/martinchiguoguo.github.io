@@ -1,6 +1,3 @@
-/* 基础样式 */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
-
 :root {
   --primary-color: #4CAF50;
   --secondary-color: #FF9800;
@@ -431,33 +428,6 @@ header.scrolled .logo img {
   transition: var(--transition);
 }
 
-.apple {
-  top: -50px;
-  left: 50%;
-  transform: translateX(-50%);
-  background-image: url('https://cdn.pixabay.com/photo/2018/05/07/10/48/apple-3380631_1280.png');
-}
-
-.orange {
-  right: -50px;
-  top: 50%;
-  transform: translateY(-50%);
-  background-image: url('https://cdn.pixabay.com/photo/2017/01/20/15/06/oranges-1995056_1280.png');
-}
-
-.grape {
-  bottom: -50px;
-  left: 50%;
-  transform: translateX(-50%);
-  background-image: url('https://cdn.pixabay.com/photo/2018/06/06/15/20/grapes-3458182_1280.png');
-}
-
-.banana {
-  left: -50px;
-  top: 50%;
-  transform: translateY(-50%);
-  background-image: url('https://cdn.pixabay.com/photo/2016/09/11/18/25/banana-1662058_1280.png');
-}
 
 .fruit:hover {
   transform: scale(1.2);
